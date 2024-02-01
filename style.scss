@@ -15,10 +15,58 @@ body{
 
         .container{
             height: 80%;
-            border: .5rem solid $mygrey;
-            padding: 20px;
+            border: 5px solid $mygrey;
             border-radius: 25px;
             margin-top: 5rem;
+            display: flex;
+            box-shadow: 10px 10px 10px rgba(141, 4, 4, 0.716);
+            overflow: hidden;
+
+            .leftSide{
+                background-color: aqua;
+                width: 20%;
+                height: 100%;
+            }
+
+            .rightSide{
+                background-color: rgb(255, 255, 63);
+                width: 80%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                
+
+                .navbarContainer{
+                    background-color: darkmagenta;
+                    height: 10%;
+                }
+
+                .topPic{
+                    background-color: rgb(255, 128, 74);
+                    width: 100%;
+                    height: 45%;
+                }
+
+                .bottom{
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                padding: 20px;
+                margin: 20px;
+                
+
+                    .box{
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        background-color: deeppink;
+                        width: 16rem;
+                        height: 8rem;
+                        border-radius: 20px;
+                        flex-wrap: wrap; 
+                    }
+                }
+            }
         }
     }
 }
