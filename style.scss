@@ -1,0 +1,11 @@
+$myred: rgb(195, 29, 29);
+
+body{
+    margin: 0;
+    padding: 0;
+
+    .inside{
+        background-color: $myred;
+        height: 100vh;
+    }
+}

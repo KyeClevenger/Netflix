@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body .inside {
+  background-color: rgb(195, 29, 29);
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */
