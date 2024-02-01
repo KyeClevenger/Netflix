@@ -4,5 +4,16 @@ body {
 }
 body .inside {
   background-color: rgb(195, 29, 29);
+  width: 100vw;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .inside .container {
+  height: 80%;
+  border: 0.5rem solid lightgray;
+  padding: 20px;
+  border-radius: 25px;
+  margin-top: 5rem;
 }/*# sourceMappingURL=style.css.map */
