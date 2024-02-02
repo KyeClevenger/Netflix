@@ -9,8 +9,29 @@ body .inside {
   width: 100vw;
   height: 100vh;
   background-size: cover;
+}
+body .inside .littlescroll {
+  width: 5%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  margin: 10px;
+}
+body .inside .littlescroll .littleButtons {
+  border-radius: 20px;
+  height: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid rgb(211, 211, 211);
+  background-color: rgba(5, 5, 5, 0.961);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.716);
+}
+body .inside .littlescroll .littleButtons .cir {
+  height: 10%;
+  margin: 10px;
 }
 body .container {
   height: 80%;
@@ -18,19 +39,13 @@ body .container {
   background-color: rgba(5, 5, 5, 0.961);
   border-radius: 25px;
   margin-top: 5rem;
-  display: flex;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.716);
-  overflow: hidden;
 }
 body .container .leftSide {
   width: 20%;
   border-right: 3px solid lightgray;
 }
 body .container .leftSide .buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
   padding: 10px;
 }
 body .container .leftSide .trailers {
@@ -45,34 +60,21 @@ body .container .rightSide .navbarContainer {
   height: 10%;
 }
 body .container .bottom {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
   height: 90%;
   width: 100%;
 }
 body .container .topPic {
   width: 91%;
   height: 48%;
-  overflow: hidden;
   margin: 20px;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 body .container .bigImage {
   height: 100%;
   width: 100%;
   border-radius: 20px;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 body .container .box {
-  align-items: center;
-  justify-content: center;
-  display: flex;
   width: 16rem;
   height: 8rem;
   border-radius: 20px;
-  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
