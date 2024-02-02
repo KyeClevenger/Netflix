@@ -34,7 +34,8 @@ body{
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                
+                align-items: center;
+                justify-content: center;
 
                 .navbarContainer{
                     background-color: darkmagenta;
@@ -43,8 +44,18 @@ body{
 
                 .topPic{
                     background-color: rgb(255, 128, 74);
-                    width: 100%;
+                    width: 91%;
                     height: 45%;
+                    overflow: hidden;
+                    border-radius: 20px;
+                    
+
+                    .bigImage{
+                        height: 110%;
+                        width: 100%;
+                        border-radius: 20px;
+                        object-fit: fill;
+                    }
                 }
 
                 .bottom{
@@ -59,11 +70,17 @@ body{
                         align-items: center;
                         justify-content: center;
                         display: flex;
-                        background-color: deeppink;
                         width: 16rem;
                         height: 8rem;
                         border-radius: 20px;
                         flex-wrap: wrap; 
+
+                        .images{
+                            height: 100%;
+                            width: 100%;
+                            border-radius: 20px;
+                            object-fit: fill;
+                        }
                     }
                 }
             }
