@@ -1,76 +1,78 @@
 body {
   margin: 0;
   padding: 0;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body .inside {
-  background-color: rgb(195, 29, 29);
+  background-image: url("https://medleyhome.com/cdn/shop/articles/Lala_90x110_Bumper_Sectional-New_Delhi_Bleach_fabric-Walnut_Thom_Leg-Rendering-1_1_1.jpg?v=1677193859&width=2048");
   width: 100vw;
   height: 100vh;
+  background-size: cover;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
-body .inside .container {
+body .container {
   height: 80%;
-  border: 5px solid lightgray;
+  border: 3px solid rgb(211, 211, 211);
+  background-color: rgba(5, 5, 5, 0.961);
   border-radius: 25px;
   margin-top: 5rem;
   display: flex;
-  box-shadow: 10px 10px 10px rgba(141, 4, 4, 0.716);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.716);
   overflow: hidden;
 }
-body .inside .container .leftSide {
-  background-color: aqua;
+body .container .leftSide {
   width: 20%;
-  height: 100%;
+  border-right: 3px solid lightgray;
 }
-body .inside .container .rightSide {
-  background-color: rgb(255, 255, 63);
-  width: 80%;
-  height: 100%;
+body .container .leftSide .buttons {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
+  padding: 10px;
 }
-body .inside .container .rightSide .navbarContainer {
-  background-color: darkmagenta;
+body .container .leftSide .trailers {
+  width: 100%;
+  padding: 10px;
+}
+body .container .rightSide {
+  width: 80%;
+  height: 100%;
+}
+body .container .rightSide .navbarContainer {
   height: 10%;
 }
-body .inside .container .rightSide .topPic {
-  background-color: rgb(255, 128, 74);
-  width: 91%;
-  height: 45%;
-  overflow: hidden;
-  border-radius: 20px;
-}
-body .inside .container .rightSide .topPic .bigImage {
-  height: 110%;
-  width: 100%;
-  border-radius: 20px;
-  -o-object-fit: fill;
-     object-fit: fill;
-}
-body .inside .container .rightSide .bottom {
+body .container .bottom {
   align-items: center;
   justify-content: center;
   display: flex;
-  padding: 20px;
-  margin: 20px;
+  flex-direction: column;
+  height: 90%;
+  width: 100%;
 }
-body .inside .container .rightSide .bottom .box {
+body .container .topPic {
+  width: 91%;
+  height: 48%;
+  overflow: hidden;
+  margin: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .container .bigImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .container .box {
   align-items: center;
   justify-content: center;
   display: flex;
   width: 16rem;
   height: 8rem;
   border-radius: 20px;
-  flex-wrap: wrap;
-}
-body .inside .container .rightSide .bottom .box .images {
-  height: 100%;
-  width: 100%;
-  border-radius: 20px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */

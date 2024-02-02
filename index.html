@@ -6,45 +6,158 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./script.js"></script>
     <title>Netflix</title>
 </head>
 
 <body>
     <div class="inside">
         <div class="container">
-            <div class="leftSide"></div>
+            <div class="leftSide">
+                <div class="buttons">
+                    <img src="https://assets-global.website-files.com/5ee732bebd9839b494ff27cd/5ee732bebd98393d75ff281d_580b57fcd9996e24bc43c529.png"
+                        alt="">
+                    <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full m-1">
+                        Browse
+                    </button>
+                    <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full m-1">
+                        Wishlist
+                    </button>
+                    <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full m-1 mb-9">
+                        Coming Soon
+                    </button>
+                </div>
+                <div class="trailers">
+                    <h1>New Trailers</h1>
+                </div>
+                <div class="grid gap-3 justify-center">
+                    <div class="box">
+                        <img src="https://www.thebvnewspaper.com/wp-content/uploads/2013/09/Breaking-Bad.jpg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="https://m.media-amazon.com/images/I/91txlu5NEfL.jpg" alt="">
+                    </div>
+                    <div class="box">
+                        <img src="https://img.hulu.com/user/v3/artwork/a5d73410-543f-45a2-ac2f-817eab39921b?base_image_bucket_name=image_manager&base_image=09c6d582-cd29-44aa-9d80-daf461ffe091&region=US&format=jpeg&size=952x536"
+                            alt="">
+                    </div>
+                </div>
+            </div>
             <div class="rightSide">
                 <div class="navbarContainer">
-
-                </div>
-                <div class="topPic">
-                    <img class="bigImage" src="https://wallpapers.com/images/hd/druggie-bojack-horseman-6c567hjidxirxh35.jpg" alt="">
+                    <nav class="nav">
+                        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+                            <div class="relative flex h-16 items-center justify-between">
+                                <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                                    <button type="button"
+                                        class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                                        aria-controls="mobile-menu" aria-expanded="false">
+                                        <span class="absolute -inset-0.5"></span>
+                                        <span class="sr-only">Open main menu</span>
+                                        <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                            stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                        </svg>
+                                        <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                            stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M6 18L18 6M6 6l12 12" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                                    <div class="hidden sm:ml-6 sm:block">
+                                        <div class="flex space-x-4">
+                                            <a href="#"
+                                                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
+                                                aria-current="page">Dashboard</a>
+                                            <a href="#"
+                                                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Team</a>
+                                            <a href="#"
+                                                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
+                                            <a href="#"
+                                                class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                                    <button type="button"
+                                        class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                                        <span class="absolute -inset-1.5"></span>
+                                        <span class="sr-only">View notifications</span>
+                                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                            stroke="currentColor" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+                                        </svg>
+                                    </button>
+                                    <div class="relative ml-3">
+                                        <div>
+                                            <button type="button"
+                                                class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                                                id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                                                <span class="absolute -inset-1.5"></span>
+                                                <span class="sr-only">Open user menu</span>
+                                                <img class="h-8 w-8 rounded-full"
+                                                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                                    alt="">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sm:hidden" id="mobile-menu">
+                            <div class="space-y-1 px-2 pb-3 pt-2">
+                                <a href="#"
+                                    class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
+                                    aria-current="page">Dashboard</a>
+                                <a href="#"
+                                    class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
+                                <a href="#"
+                                    class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
+                                <a href="#"
+                                    class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
                 <div class="bottom">
+                    <div class="topPic">
+                        <img class="bigImage"
+                            src="https://wallpapers.com/images/hd/druggie-bojack-horseman-6c567hjidxirxh35.jpg" alt="">
+                    </div>
                     <div class="grid grid-cols-4 gap-8">
                         <div class="box">
-                            <img class="images" src="https://www.thebvnewspaper.com/wp-content/uploads/2013/09/Breaking-Bad.jpg" alt="">
+                            <img src="https://www.thebvnewspaper.com/wp-content/uploads/2013/09/Breaking-Bad.jpg"
+                                alt="">
                         </div>
                         <div class="box">
-                            <img class="images" src="https://m.media-amazon.com/images/I/91txlu5NEfL.jpg" alt="">
+                            <img src="https://m.media-amazon.com/images/I/91txlu5NEfL.jpg" alt="">
                         </div>
                         <div class="box">
-                            <img class="images" src="https://img.hulu.com/user/v3/artwork/a5d73410-543f-45a2-ac2f-817eab39921b?base_image_bucket_name=image_manager&base_image=09c6d582-cd29-44aa-9d80-daf461ffe091&region=US&format=jpeg&size=952x536" alt="">
+                            <img src="https://img.hulu.com/user/v3/artwork/a5d73410-543f-45a2-ac2f-817eab39921b?base_image_bucket_name=image_manager&base_image=09c6d582-cd29-44aa-9d80-daf461ffe091&region=US&format=jpeg&size=952x536"
+                                alt="">
                         </div>
                         <div class="box">
-                            <img class="images" src="data:image/jpeg;base64,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" alt="">
+                            <img src="https://wallpaper.dog/large/20594595.jpg" alt="">
                         </div>
                         <div class="box">
-                            <img class="images" src="https://fossbytes.com/wp-content/uploads/2021/10/inside-job-poster-1200x675-1.jpg" alt="">
+                            <img src="https://fossbytes.com/wp-content/uploads/2021/10/inside-job-poster-1200x675-1.jpg"
+                                alt="">
                         </div>
                         <div class="box">
-                            <img class="images" src="https://facts.net/wp-content/uploads/2023/06/40-facts-about-the-movie-spider-man-into-the-spider-verse-1687432878.jpeg" alt="">
+                            <img src="https://facts.net/wp-content/uploads/2023/06/40-facts-about-the-movie-spider-man-into-the-spider-verse-1687432878.jpeg"
+                                alt="">
                         </div>
                         <div class="box">
-                            <img class="images" src="https://tomwritesaboutstuff.com/wp-content/uploads/severance-season-1.jpg" alt="">
+                            <img src="https://tomwritesaboutstuff.com/wp-content/uploads/severance-season-1.jpg" alt="">
                         </div>
                         <div class="box">
-                            <img class="images" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/03A4EB3D71AE0BE1E33A9FC6A0D7DF2C2679A96CB22F776104E43F563BA014C9/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp" alt="">
+                            <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/03A4EB3D71AE0BE1E33A9FC6A0D7DF2C2679A96CB22F776104E43F563BA014C9/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"
+                                alt="">
                         </div>
                     </div>
                 </div>

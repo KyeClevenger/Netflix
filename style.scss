@@ -1,89 +1,88 @@
-$myred: rgb(195, 29, 29);
-$mygrey: lightgray;
-
-body{
+body {
     margin: 0;
     padding: 0;
-
-    .inside{
-        background-color: $myred;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    .inside {
+        background-image: url("https://medleyhome.com/cdn/shop/articles/Lala_90x110_Bumper_Sectional-New_Delhi_Bleach_fabric-Walnut_Thom_Leg-Rendering-1_1_1.jpg?v=1677193859&width=2048");
         width: 100vw;
         height: 100vh;
+        background-size: cover;
         display: flex;
-        align-items: center;
         justify-content: center;
+    }
+    
+    .container {
+        height: 80%;
+        border: 3px solid rgb(211, 211, 211);
+        background-color: rgba(5, 5, 5, 0.961);
+        border-radius: 25px;
+        margin-top: 5rem;
+        display: flex;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.716);
+        overflow: hidden;
 
-        .container{
-            height: 80%;
-            border: 5px solid $mygrey;
-            border-radius: 25px;
-            margin-top: 5rem;
-            display: flex;
-            box-shadow: 10px 10px 10px rgba(141, 4, 4, 0.716);
-            overflow: hidden;
+        .leftSide {
+            width: 20%;
+            border-right: 3px solid lightgray;
 
-            .leftSide{
-                background-color: aqua;
-                width: 20%;
-                height: 100%;
-            }
-
-            .rightSide{
-                background-color: rgb(255, 255, 63);
-                width: 80%;
-                height: 100%;
+            .buttons {
                 display: flex;
                 flex-direction: column;
-                align-items: center;
+                align-items: start;
                 justify-content: center;
-
-                .navbarContainer{
-                    background-color: darkmagenta;
-                    height: 10%;
-                }
-
-                .topPic{
-                    background-color: rgb(255, 128, 74);
-                    width: 91%;
-                    height: 45%;
-                    overflow: hidden;
-                    border-radius: 20px;
-                    
-
-                    .bigImage{
-                        height: 110%;
-                        width: 100%;
-                        border-radius: 20px;
-                        object-fit: fill;
-                    }
-                }
-
-                .bottom{
-                align-items: center;
-                justify-content: center;
-                display: flex;
-                padding: 20px;
-                margin: 20px;
-                
-
-                    .box{
-                        align-items: center;
-                        justify-content: center;
-                        display: flex;
-                        width: 16rem;
-                        height: 8rem;
-                        border-radius: 20px;
-                        flex-wrap: wrap; 
-
-                        .images{
-                            height: 100%;
-                            width: 100%;
-                            border-radius: 20px;
-                            object-fit: fill;
-                        }
-                    }
-                }
+                padding: 10px;
             }
+            
+            .trailers {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+        
+        .rightSide {
+            width: 80%;
+            height: 100%;
+            
+            .navbarContainer {
+                height: 10%;
+            }
+        }
+        
+        
+        .bottom {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            height: 90%;
+            width: 100%;
+        }
+        
+        .topPic {
+            width: 91%;
+            height: 48%;
+            overflow: hidden;
+            margin: 20px;
+            object-fit: cover;
+        }
+        
+        .bigImage {
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+        
+        .box {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 16rem;
+            height: 8rem;
+            border-radius: 20px;
+            overflow: hidden;
         }
     }
 }
