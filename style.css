@@ -4,13 +4,15 @@ body {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body .inside {
+
+.inside {
   background-image: url("https://medleyhome.com/cdn/shop/articles/Lala_90x110_Bumper_Sectional-New_Delhi_Bleach_fabric-Walnut_Thom_Leg-Rendering-1_1_1.jpg?v=1677193859&width=2048");
   width: 100vw;
   height: 100vh;
   background-size: cover;
 }
-body .inside .littlescroll {
+
+.littlescroll {
   width: 5%;
   height: 100%;
   display: flex;
@@ -19,7 +21,8 @@ body .inside .littlescroll {
   justify-content: center;
   margin: 10px;
 }
-body .inside .littlescroll .littleButtons {
+
+.littleButtons {
   border-radius: 20px;
   height: 32%;
   display: flex;
@@ -29,11 +32,12 @@ body .inside .littlescroll .littleButtons {
   background-color: rgba(5, 5, 5, 0.961);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.716);
 }
-body .inside .littlescroll .littleButtons .cir {
+.littleButtons .cir {
   height: 10%;
   margin: 10px;
 }
-body .container {
+
+.container {
   height: 80%;
   border: 3px solid rgb(211, 211, 211);
   background-color: rgba(5, 5, 5, 0.961);
@@ -41,40 +45,116 @@ body .container {
   margin-top: 5rem;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.716);
 }
-body .container .leftSide {
+
+.leftSide {
   width: 20%;
   border-right: 3px solid lightgray;
 }
-body .container .leftSide .buttons {
+.leftSide .buttons {
   padding: 10px;
 }
-body .container .leftSide .trailers {
+.leftSide .trailers {
   width: 100%;
   padding: 10px;
 }
-body .container .rightSide {
+
+.rightSide {
   width: 80%;
   height: 100%;
 }
-body .container .rightSide .navbarContainer {
+.rightSide .navbarContainer {
   height: 10%;
 }
-body .container .bottom {
+
+.bottom {
   height: 90%;
   width: 100%;
 }
-body .container .topPic {
+
+.topPic {
   width: 91%;
   height: 48%;
   margin: 20px;
 }
-body .container .bigImage {
+
+.bigImage {
   height: 100%;
   width: 100%;
   border-radius: 20px;
 }
-body .container .box {
+
+.box {
   width: 16rem;
   height: 8rem;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column-reverse; /* Change flex direction to column-reverse for mobile */
+    height: auto;
+    margin-top: 2rem;
+    border: none;
+  }
+  .leftSide {
+    width: 100%;
+    border-right: none;
+    order: 2; /* Change the order to 2 for mobile */
+  }
+  .rightSide {
+    width: 100%;
+    order: 1; /* Change the order to 1 for mobile */
+  }
+  .space-y-1.px-2.pb-3.pt-2 {
+    margin-bottom: 100px;
+  }
+  .inside {
+    background-image: none;
+    height: auto;
+    background-color: rgba(5, 5, 5, 0.961);
+  }
+  .littlescroll {
+    width: 100%;
+    margin: 0;
+    display: none;
+  }
+  .littleButtons {
+    flex-direction: row;
+    height: auto;
+  }
+  .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .navbarContainer {
+    height: auto;
+  }
+  .bottom {
+    height: auto;
+  }
+  .topPic {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  .grid.grid-cols-4 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 16px;
+  }
+  .bigImage {
+    border-radius: 0;
+  }
+  .box {
+    width: 100%;
+  }
+  .smallImage {
+    margin: 50px;
+    padding: 20px;
+  }
+}
+/* Media Query for Desktops */
+@media screen and (min-width: 1024px) {
+  .littlescroll {
+    width: 5%;
+  }
 }/*# sourceMappingURL=style.css.map */
