@@ -63,7 +63,6 @@ body {
 }
 
 .leftSide {
-  width: 30%;
   background-color: rgba(5, 5, 5, 0.961);
   border-right: 3px solid lightgray;
 }
@@ -84,8 +83,6 @@ body {
 }
 
 .box {
-  width: 16rem;
-  height: 8rem;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
@@ -116,71 +113,38 @@ body {
   color: rgba(141, 141, 141, 0.676);
 }
 
-.row-title {
-  color: white;
-  font-size: 18px;
-  margin-bottom: 5px;
-}
-
 @media screen and (max-width: 769px) {
   body {
-    background-color: rgba(0, 0, 0, 0.921);
+    background-color: rgba(0, 0, 0, 0);
   }
   .container {
     flex-direction: column-reverse;
-    height: auto;
-    margin-top: 2rem;
     border: none;
   }
   .leftSide {
-    width: 100%;
     border-right: none;
     order: 2;
   }
   .rightSide {
-    width: 100%;
     order: 1;
-  }
-  .space-y-1.px-2.pb-3.pt-2 {
-    margin-bottom: 100px;
   }
   .inside {
     background-image: none;
     height: auto;
-    width: 100%;
     background-color: rgb(5, 5, 5);
     border: none;
-  }
-  .littlescroll {
-    display: none;
   }
   .littleButtons {
     display: none !important;
   }
   .box {
-    width: 100%;
     margin-bottom: 20px;
   }
-  .navbarContainer {
-    height: auto;
-  }
-  .bottom {
-    height: auto;
-  }
-  .topPic {
-    width: 100%;
-    height: auto;
-  }
   .headers {
-    width: 100%;
     height: auto;
     text-align: left;
   }
   .grid.grid-cols-4 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 16px;
-  }
-  .bigImage {
-    border-radius: 0;
   }
 }/*# sourceMappingURL=style.css.map */
