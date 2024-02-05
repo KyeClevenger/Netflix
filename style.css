@@ -18,10 +18,6 @@ body {
   background-color: rgba(5, 5, 5, 0.961);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.716);
 }
-.littleButtons .cir {
-  height: 10%;
-  margin: 10px;
-}
 
 .container {
   height: 80%;
@@ -42,18 +38,9 @@ body {
   height: 90%;
 }
 
-.topPic {
-  width: 90%;
-  height: 50%;
-  padding: 20px;
-  overflow: hidden;
-}
-
 .headers {
-  width: 15%;
-  height: 28%;
   z-index: 1;
-  margin: 10px;
+  margin: 15px;
   position: absolute;
   color: rgba(255, 255, 255, 0.676);
 }
@@ -62,21 +49,12 @@ body {
   box-shadow: 0 0 2px 2px rgb(255, 105, 105);
 }
 
-.watch {
-  margin-top: 100px;
-}
-
-.bigImage {
-  border-radius: 20px;
-}
-
 .box {
   width: 16rem;
   height: 8rem;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
-  margin-bottom: 20px;
 }
 
 .w3-grey, .w3-light-grey {
@@ -86,23 +64,6 @@ body {
 .w3-grey {
   height: 5px !important;
   background-color: red !important;
-}
-
-.play {
-  left: 1;
-  top: 0;
-  margin: 20px;
-  height: 30px;
-  width: 30px;
-  border-radius: 20px;
-  background-color: rgba(34, 34, 34, 0.921);
-}
-
-.playtwo {
-  background-color: rgba(18, 18, 18, 0.983);
-  border-radius: 20px;
-  width: 30px;
-  height: 30px;
 }
 
 .labels {
