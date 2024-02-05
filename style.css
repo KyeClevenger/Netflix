@@ -73,9 +73,9 @@ body {
 }
 
 .topPic {
-  width: 91%;
-  height: 48%;
-  margin: 20px;
+  width: 100%;
+  height: 40%;
+  padding: 20px;
   position: relative;
   overflow: hidden;
 }
@@ -102,16 +102,41 @@ body {
      object-fit: cover;
 }
 
+.w3-grey, .w3-light-grey {
+  border-radius: 20px;
+}
+
+.w3-grey {
+  height: 10px !important;
+  background-color: red !important;
+}
+
 .labels {
   background-color: rgba(34, 34, 34, 0.921);
-  color: white;
-  padding: 10px;
-  text-align: center;
+  color: rgba(255, 255, 255, 0.82);
+  padding: 5px;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
+  overflow: hidden;
   box-sizing: border-box;
+  border-radius: 0 0 20px 20px;
+}
+
+.ratings {
+  display: flex;
+  color: rgba(141, 141, 141, 0.676);
+}
+
+.row-container {
+  margin-bottom: 20px; /* Adjust the spacing between rows */
+}
+
+.row-title {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px; /* Adjust the spacing between the title and the row */
 }
 
 @media screen and (max-width: 769px) {
