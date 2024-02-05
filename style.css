@@ -13,7 +13,6 @@ body {
 
 .littlescroll {
   width: 5%;
-  height: 100%;
   margin: 10px;
 }
 
@@ -52,7 +51,6 @@ body {
 
 .rightSide {
   width: 80%;
-  height: 100%;
 }
 .rightSide .navbarContainer {
   height: 10%;
@@ -60,7 +58,6 @@ body {
 
 .bottom {
   height: 90%;
-  width: 100%;
 }
 
 .topPic {
@@ -88,7 +85,6 @@ body {
 }
 
 .bigImage {
-  height: 100%;
   border-radius: 20px;
 }
 
@@ -99,12 +95,6 @@ body {
   position: relative;
   overflow: hidden;
   margin-bottom: 20px;
-}
-
-.smallImage {
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .w3-grey, .w3-light-grey {
