@@ -79,7 +79,7 @@ body {
 }
 
 .glow {
-  box-shadow: 0 0 2px 2px rgb(255, 105, 105);
+  box-shadow: 0 0 2px 2px rgb(229, 10, 20);
 }
 
 .box {
@@ -94,7 +94,7 @@ body {
 
 .w3-grey {
   height: 5px !important;
-  background-color: red !important;
+  background-color: rgb(229, 10, 20) !important;
 }
 
 .labels {
@@ -115,7 +115,8 @@ body {
 
 .navbarContainer {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.716);
+  background-color: rgb(229, 10, 20);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.716);
   top: 0;
   left: 0;
   width: 100%;
