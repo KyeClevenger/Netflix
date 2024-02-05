@@ -9,25 +9,17 @@ body {
   background-image: url("https://medleyhome.com/cdn/shop/articles/Lala_90x110_Bumper_Sectional-New_Delhi_Bleach_fabric-Walnut_Thom_Leg-Rendering-1_1_1.jpg?v=1677193859&width=2048");
   width: 100vw;
   height: 100vh;
-  background-size: cover;
 }
 
 .littlescroll {
   width: 5%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin: 10px;
 }
 
 .littleButtons {
   border-radius: 20px;
   height: 32%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   border: 3px solid rgb(211, 211, 211);
   background-color: rgba(5, 5, 5, 0.961);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.716);
@@ -55,7 +47,6 @@ body {
   padding: 10px;
 }
 .leftSide .trailers {
-  width: 100%;
   padding: 10px;
 }
 
@@ -98,7 +89,6 @@ body {
 
 .bigImage {
   height: 100%;
-  width: 100%;
   border-radius: 20px;
 }
 
@@ -112,7 +102,6 @@ body {
 }
 
 .smallImage {
-  width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -128,13 +117,9 @@ body {
 }
 
 .play {
-  position: absolute;
   left: 1;
   top: 0;
   margin: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 30px;
   width: 30px;
   border-radius: 20px;
@@ -146,16 +131,12 @@ body {
   border-radius: 20px;
   width: 30px;
   height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .labels {
   background-color: rgba(34, 34, 34, 0.921);
   color: rgba(255, 255, 255, 0.82);
   padding: 5px;
-  position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -165,8 +146,6 @@ body {
 }
 
 .ratings {
-  display: flex;
-  justify-content: space-between;
   color: rgba(141, 141, 141, 0.676);
 }
 
@@ -206,15 +185,13 @@ body {
     height: auto;
     width: 100%;
     background-color: rgb(5, 5, 5);
+    border: none;
   }
   .littlescroll {
-    width: 100%;
-    margin: 0;
     display: none;
   }
   .littleButtons {
-    flex-direction: row;
-    height: auto;
+    display: none !important;
   }
   .box {
     width: 100%;
