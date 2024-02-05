@@ -177,6 +177,9 @@ body {
 }
 
 @media screen and (max-width: 769px) {
+  body {
+    background-color: rgba(0, 0, 0, 0.921);
+  }
   .container {
     flex-direction: column-reverse;
     height: auto;
