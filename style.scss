@@ -77,9 +77,9 @@ body {
     margin: 15px;
     position: absolute;
     height: auto;
-    color:  rgb(0, 0, 0);
+    color:  rgb(255, 255, 255);
     font-weight: 900;
-    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 .glow{
@@ -90,6 +90,10 @@ body {
     border-radius: 20px;
     position: relative;
     overflow: hidden;
+}
+
+.text-black {
+    color: black;
 }
 
 .w3-grey, .w3-light-grey{
